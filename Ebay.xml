@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Test Suite">
+
+	<test name="Release 2020">
+
+		<classes>
+			<class name= "searchbox.testRun"></class>
+
+
+		</classes>
+
+
+	</test>
+
+</suite>
+
+
+
