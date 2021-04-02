@@ -14,7 +14,7 @@ public class Registration_page {
 	@FindBy(linkText= "My Account")  public static WebElement account;
 	@FindBy(linkText = "Register") public WebElement register;
 	@FindBy(linkText = "Personal Account")public WebElement personalAccount;
-	@FindBy(xpath = "//button[@type = 'submit']")public WebElement selectContinue;
+	@FindBy(xpath = "//span[text()='Select & Continue']")public WebElement selectContinue;
 	@FindBy(id = "email")public WebElement email;
 	@FindBy(id = "password-input-field")public WebElement password;
 	@FindBy(id ="zipCode")	public	WebElement zipcode;

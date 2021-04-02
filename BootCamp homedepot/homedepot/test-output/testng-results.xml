@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-02T14:52:55 EDT" name="Default suite" finished-at="2021-04-02T14:53:04 EDT" duration-ms="8818">
+    <groups>
+    </groups>
+    <test started-at="2021-04-02T14:52:55 EDT" name="Default test" finished-at="2021-04-02T14:53:04 EDT" duration-ms="8818">
+      <class name="homedepot.Test1">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:homedepot.Test1@3943a2be]" started-at="2021-04-02T14:52:55 EDT" name="beforeMethod" finished-at="2021-04-02T14:52:59 EDT" duration-ms="4461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homedepot.Test1@3943a2be]" started-at="2021-04-02T14:52:59 EDT" name="RegTest" finished-at="2021-04-02T14:53:04 EDT" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[robfanio81@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Softwaretester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6097052255]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:homedepot.Test1@3943a2be]" started-at="2021-04-02T14:53:04 EDT" name="afterMethod" finished-at="2021-04-02T14:53:04 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homedepot.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -19,7 +19,7 @@ public class Base {
 	public void beforeMethod(@Optional("Chrome")String browser) {
 		if(browser.equalsIgnoreCase("chrome")){
 			String path = System.getProperty("user.dir");
-			System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chromedriverv88.exe");
 			driver = new ChromeDriver();
 			driver.get("http://www.homedepot.com");
 			driver.manage().window().maximize();
@@ -50,7 +50,7 @@ public class Base {
 
 	@AfterMethod
 	public void afterMethod() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }
