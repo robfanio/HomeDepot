@@ -8,6 +8,8 @@ public class Test1 extends Base {
 	@Parameters({"email","password","zipcode","phone"})
 	@Test
 	public void RegTest(@Optional("robfanio81@gmail.com")String email,@Optional("Softwaretester")String password,@Optional("08401")String zipcode,@Optional("6097052255") String phone) {
+		//WebDriverWait wait = new WebDriverWait(driver, 10);
+		//wait.until(ExpectedConditions.);
 		register.ClickAccount();
 		register.ClickRegister();
 		register.SelectAccount();
@@ -17,4 +19,6 @@ public class Test1 extends Base {
 		register.phoneInput(phone);
 		register.btnAcct();
 	}
+	
+	
 }

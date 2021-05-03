@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Suite name="Functional-suite">
+	<test name="Smoke testing">
+		<classes>
+			<class name="homedepot.Test1" />
+
+		</classes>
+
+	</test>
+
+</Suite>
