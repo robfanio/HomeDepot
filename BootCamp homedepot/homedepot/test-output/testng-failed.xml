@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="RegTest" invocation-numbers="0"/>
+          <include name="RegTest"/>
         </methods>
       </class> <!-- homedepot.Test1 -->
     </classes>

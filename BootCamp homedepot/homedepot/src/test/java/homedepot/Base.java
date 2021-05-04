@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -19,7 +20,7 @@ public class Base {
 	public void beforeMethod(@Optional("Chrome")String browser) {
 		if(browser.equalsIgnoreCase("chrome")){
 			String path = System.getProperty("user.dir");
-			System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chromedriverv88.exe");
+			System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chrome_V90.exe");
 			driver = new ChromeDriver();
 			driver.get("http://www.homedepot.com");
 			driver.manage().window().maximize();
@@ -42,6 +43,7 @@ public class Base {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(4L, TimeUnit.SECONDS);
 			register = new Registration_page(driver);
+			
 		}
 		
 		
@@ -50,7 +52,7 @@ public class Base {
 
 	@AfterMethod
 	public void afterMethod() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }
